@@ -1,0 +1,133 @@
+.bg1{
+    background-image: url(./Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.navstyle{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+}
+.btn{
+    color: white;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.btn:hover{
+    background-color:cyan;
+    color:black;
+    cursor: pointer;
+}
+.banner{
+    text-align: center;
+    padding: 50px 0;
+}
+.action{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin: 50px 100px;
+}
+.action-left{
+    padding: 100px 0;
+}
+.action-right{
+    border-radius: 48px;
+}
+.info{
+    margin:100px 100px;
+    background-color:rgba(78, 71, 255, 0.1);
+    border-radius: 30px;
+}
+.info-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.item-title{
+    font-size: 80px;
+    font-weight: 600;
+    color: #4E47FF;
+}
+.item-desc{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    padding:0 0 50px 0;
+}
+.feedback{
+    display: flex;
+    justify-content: space-around;
+    margin : 50px 100px;
+    gap: 50px;
+}
+.feedback-items{
+    border-color:rgba(242, 237, 237, 1);
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+.reviewer-info{
+    display: flex;
+    gap: 20px;
+}
+.reviewer-avatar{ 
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: 0;
+}
+.reviewer-name h3{
+    color: rgba(117, 117, 117, 1);
+    font-size: 20px;
+    margin: 0;
+}
+.reviewer-name p{
+    color:rgba(179, 179, 179, 1);
+    font-size: 15px;
+    margin: 0;
+}
+.stars{
+    color: orange;
+}
+.touch{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 50px 100px;
+}
+.message{
+    margin: 100px 0 0 0;
+}
+.touch-form form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 500px;
+    padding: 100px 0;
+}
+.input-field{
+    border: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-color:rgba(214, 221, 237, 1);
+}
+.touch-form textarea{
+    height: 80px;
+    resize: none;
+}
+.footer-items{
+    background-color:whitesmoke;
+}
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 0 0 50px 0;
+}
+
